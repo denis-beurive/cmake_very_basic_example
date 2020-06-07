@@ -17,7 +17,7 @@ link_directories(extra/chilkat-9.5.0-x86_64-linux-gcc/lib)
 # - set_target_properties: set properties.
 #   - COMPILE_FLAGS: some compiler flag.
 #   - RUNTIME_OUTPUT_DIRECTORY: the directory where to put the executable.
-#   - EXCLUDE_FROM_ALL: tell whether the target must be compiled when building all, or not.
+#   - EXCLUDE_FROM_ALL: tell whether the target must be compiled when building "all", or not.
 add_executable(hello_world src/main.c src/module.c src/module.h)
 target_link_libraries(hello_world chilkat-9.5.0)
 set_target_properties(
