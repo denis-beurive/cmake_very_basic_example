@@ -42,12 +42,12 @@ Declare the libraries to be linked against an executable:
 
 Set other properties to apply to the executable(s):
 
-set_target_properties(
-        executable1_name executable2_name...
-        PROPERTIES
-        property_name1 value1
-        property_name2 value2
-        ...)
+    set_target_properties(
+            executable1_name executable2_name...
+            PROPERTIES
+            property_name1 value1
+            property_name2 value2
+            ...)
 
 For example:
 
